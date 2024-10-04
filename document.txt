@@ -37,7 +37,7 @@ bash
 git config --global credential.helper cache
 
 
-This will cache your credentials for 15 minutes by default. If you want to cache them for longer (e.g., an hour), you can specify the duration:
+This will cache your credentials for 15 minutes by default. If you want to cache them for longer, you can specify the duration:
 
 bash
 git config --global credential.helper 'cache --timeout=3600'
